@@ -2,6 +2,7 @@
 title: Objective-C Dynamic binding 研究
 date: 2015-09-22 23:30
 tags: objective-c
+categories: iOS
 ---
 
 ## Objective-C Dynamic binding 研究

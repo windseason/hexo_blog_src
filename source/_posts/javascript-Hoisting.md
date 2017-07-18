@@ -1,6 +1,7 @@
 ---
 title: 什么是Javascript Hoisting？
 date: 2017-07-08 00:06:58
+categories: javascript
 tags: javascript
 ---
 

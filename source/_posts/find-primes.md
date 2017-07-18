@@ -1,5 +1,6 @@
 ---
 title: 查找素数
+categories: 算法
 date: 2017-07-07 12:13:17
 tags:  算法
 ---
@@ -48,5 +49,3 @@ void findPrimes(bool *isPrimeFlags, const unsigned int n) {
 
 Reference:
 [https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
-
-感谢小象讲师：邹博

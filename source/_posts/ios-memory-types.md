@@ -1,6 +1,7 @@
 ---
 title: iOS memory types
 date: 2017-07-07 13:12:52
+categories: iOS
 tags: iOS
 ---
 ## iOS memory
