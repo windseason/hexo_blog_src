@@ -145,3 +145,20 @@ fastlane match development --readonly
 ```
 
 将脚本传到工程git上，这样只要有新机器，就运行一下这个脚本就全部装上了。
+
+#### 在Fastfile中使用match
+
+配置好match后，如何在fastfile中使用呢？其实很简单，如下：
+
+```ruby
+platform :ios do
+  desc "Push a new release build to the App Store"
+  lane :release do
+  	sync_code_signing
+    build_app(workspace: "Spacename.xcworkspace", scheme: "SchemeName")
+    upload_to_app_store(skip_metadata: true, skip_screenshots: true)
+  end
+end
+```
+
+只需要在编译之前调用sync_code_signing即可！
