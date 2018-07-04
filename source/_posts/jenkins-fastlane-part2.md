@@ -126,7 +126,7 @@ irb(main):006:0> Match::GitHelper.commit_changes(workspace, "add certificate, pr
 大功告成。现在你应该可以通过**fastlane**命令来安装证书和provision profiles了。
 
 ```bash
-fastlane match distribution --readonly
+fastlane match development --readonly
 ```
 
 
