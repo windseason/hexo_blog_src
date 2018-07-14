@@ -353,7 +353,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 4f0f6a13270382ca7ac23fd9d6ca150c
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -418,8 +418,9 @@ gitment:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+baidushare:
+  type: button
+  baidushare: tru
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
