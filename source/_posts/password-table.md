@@ -1,7 +1,11 @@
 ---
 title: 对抗反编译之使用密码表来保护代码中的字符串
-tags: iOS, android
-categories: iOS, android
+tags: 
+- iOS
+- android
+- 逆向工程
+categories: 
+- 逆向工程
 date: 2018-07-13 12:30:24
 ---
 
