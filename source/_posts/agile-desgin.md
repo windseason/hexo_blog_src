@@ -1,7 +1,11 @@
 ---
 title: 敏捷设计之SOLID原则
 date: 2017-08-24 15:38:11
-tags: OOD
+categories: 设计模式
+tags: 
+- OOD
+- 设计模式
+- 敏捷开发
 ---
 
 ## 敏捷设计之SOLID原则
