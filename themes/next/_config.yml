@@ -655,7 +655,7 @@ tabs:
 
 # Use velocity to animate everything.
 motion:
-  enable: false
+  enable: true
   async: false
   transition:
     # Transition variants:
