@@ -407,7 +407,7 @@ static int32_t __CFRunLoopRun(runloop, currentMode, seconds, stopAfterHandle) {
 
 下图展示了Runloop运行时的关键流程：
 
-![](http://ot51d7lis.bkt.clouddn.com/Runloop2.png)
+![](http://ot51d7lis.bkt.clouddn.com/Runloop0.png)
 
 通过代码和流程图我们有了初步的了解，但是还是有种神秘的感觉，别急，接下来就为您一一介绍什么是mode，source, observers和callouts。
 
@@ -738,6 +738,7 @@ void addObserver(CFRunLoopRef runloop) {
        }
   );
     CFRunLoopAddObserver(runloop, observer, kCFRunLoopDefaultMode);
+    CFRelease(observer);
 }
 
 @interface ViewController ()
